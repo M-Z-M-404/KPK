@@ -181,7 +181,7 @@ logo=(f"""{WHITE}
 {WHITE}[•] WhatsApp     :  03201991731 
 [•] FaceBook     :  Z.MUKHLIS
 [•] Version      :   {RED}3.1
-{WHITE}[•] TOOL STATUS. : {BLOW}FREE  
+{WHITE}[•] TOOL STATUS. : FREE  
 \033[1;32m=====================================================""")
 def linex():
     print('\033[1;37m---------------------------------------------------')
