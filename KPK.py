@@ -13,7 +13,7 @@ except ModuleNotFoundError:
     os.system('pip install requests bs4 futures==2 > /dev/null')
     os.system('python KPK.py')
 	
-os.system('xdg-open https://www.facebook.com/zafarjaan.baloch.7923
+os.system('xdg-open https://www.facebook.com/Raja.zakaryia')
 
 try:
     prox= requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/proxies.txt').text
@@ -145,7 +145,7 @@ device = {
         'fbsv':fbsv,
         'fbca':fbca,
         'fbdm':fbdm}
-os.system('xdg-open https://www.facebook.com/zafarjaan.baloch.7923
+os.system('xdg-open https://www.facebook.com/Raja.zakaryia')
 ##______COLORS____ARE________######
 pwx=[]
 W = '\033[97;1m'
